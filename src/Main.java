@@ -5,10 +5,11 @@
 // Description: This class is the Main class works the program.
 // Note: İhsan Melih Şişman is available to work part-time or long-term internship min 3 days a week during the 2022 - 2023 university term
 //-----------------------------------------------------
-/**
- * by:
- * @author İhsan Melih Şişman
+/*
+  by:
+  @author İhsan Melih Şişman
  */
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -28,11 +29,7 @@ public class Main {
         System.out.print("Lütfen kilonuzu giriniz : ");
         double weight = scanner.nextDouble();
         // Takes input from the user.
-
-        /**
-         *
-         * In this part of program provide us to test the result and print it with if-else.
-         */
+        //   In this part of program provide us to test the result and print it with if-else
         if (BodyMassIndexCalculator.calculate(height, weight) <= 18.5) {
             System.out.print("Vücut Kitle İndeksiniz : " + df.format(BodyMassIndexCalculator.calculate(height, weight)) + ". İdeal kilonun altında");
         } else if (BodyMassIndexCalculator.calculate(height, weight) >= 18.6 && BodyMassIndexCalculator.calculate(height, weight) <= 24.0) {
