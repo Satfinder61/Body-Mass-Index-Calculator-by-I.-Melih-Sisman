@@ -1,8 +1,8 @@
 //-----------------------------------------------------
-// Title: Main class
+// Title: BodyMassIndexMain class
 // Author: İhsan Melih Şişman
 // Assignment: Patika Week [1_1]
-// Description: This class is the Main class works the program.
+// Description: This class is the BodyMassIndexMain class works the program.
 // Note: İhsan Melih Şişman is available to work part-time or long-term internship min 3 days a week during the 2022 - 2023 university term
 //-----------------------------------------------------
 /*
@@ -13,7 +13,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Main {
+public class BodyMassIndexMain {
     public static void main(String[] args) {
 
         // Defines default decimal property.
